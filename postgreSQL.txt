@@ -1,0 +1,23 @@
+-PostgreSQL Veri Tipleri Ne İşe Yarar?
+Veri tipleri, her alanın hangi tipte veri taşıyabileceğini belirleyen tanımlamalardır.
+
+-Boolean:
+Bu veri türü true ya da false işlemlerinde kullanılır, ancak yes, no, t ve f gibi kullanımları da kabul eder.
+
+-Karakter Türleri:
+Bu türler metinsel ifadeleri saklayabilen türlerdir. Kendi aralarında limitlere sahip olabildikleri gibi herhangi bir limite sahip olmayanları da vardır.
+Buna char(n),varchar(n),text, character, character varying, bit varying olarak örnek verebiliriz. Char ve varchar n adet karakter alabilir, text ise bir limite sahip değildir.
+
+-Sayısal Türler:
+smallint, smallserial, serial, bigserial, integer, bigint
+decimal ve numeric variable türünden, real, double precision
+
+-Geçici Türler:
+Bu türler direkt olarak kalıcılığa sahip olmayan türlerdir; date, time, timestamp, interval olarak örneklendirebiliriz.
+
+-Bunun dışında; uuid, array, json, jsonb, hstore, xml, txid_snasphot, tsvector, tsquery gibi veri tipleri mevcuttur.
+
+-Box, bytea, cidr, circle, date, inet, interval, line, lseg, macaddr, macaddr8, money, numeric, path, pg_lsn, point, polygon gibi veri tiplerini PostgreSQL'de
+kullanabiliriz.
+
+
